@@ -1,0 +1,43 @@
+﻿@media print {
+
+    body, html {
+        margin: 0 auto !important;
+        padding: 10px !important;
+        border: 0 !important;
+        border-radius: 0 !important;
+        position: relative !important;
+        background: transparent !important;
+    }
+
+    .btn, hr, header, nav, footer, #filterNav, #mobileFilter, i, .nav, #actionRow, #documents, #pictures {
+        display: none !important;
+    }
+
+    .img-holder, div[role=main], *[class*=col], *[class*=container], *[class*=row] {
+        display: block !important;
+        width: 100% !important;
+        margin: 15px auto !important;
+        padding: 0 !important;
+        max-width: 100% !important;
+        flex: none !important;
+        border: 0 !important;
+        border-radius: 0 !important;
+        position: relative !important;
+        background: transparent !important;
+    }
+
+    .badge {
+        border: 0 !important;
+        border-radius: 0 !important;
+    }
+
+    .contact {
+        background: transparent !important;
+        padding: 10px 0 !important;
+    }
+
+    div[role=main] .table tbody th {
+        background: #f2f2f2 !important;
+    }
+
+}
